@@ -10536,6 +10536,7 @@ sup {
 }
 
 select {
+  margin: 1rem 0;
   height: 2.2rem;
   background: transparent;
   border: 1px solid #ffffff;

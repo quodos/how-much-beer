@@ -91,7 +91,7 @@
 <template>
     <main class="main">
         <div v-if="busy">
-            <p class="info">
+            <p>
                 <span>Loading&hellip;</span>
             </p>
         </div>
