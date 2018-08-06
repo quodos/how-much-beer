@@ -22,12 +22,12 @@
         },
 
         mounted() {
-            fetch('http://ip-api.com/json')
+            fetch('http://www.geoplugin.net/json.gp')
                 .then(response => {
                     return response.json();
                 })
                 .then(json => {
-                    this.countryCode = json.countryCode;
+                    this.countryCode = json.geoplugin_countryCode;
                     const country = find(data.countries, ['code', this.countryCode]);
 
                     if (typeof country === 'undefined') {
@@ -71,7 +71,7 @@
         </div>
 
         <p class="info">
-            <span>Privacy: We use <a href="http://ip-api.com/" target="_blank" rel="nofollow external">ip-api.com</a> to detect your current country. We do not safe any information at any time.</span>
+            <span>Privacy: We use <a href="https://www.geoplugin.com/" target="_blank" rel="nofollow external">geoplugin.com</a>'s webservices to detect your current country. We do not safe any information at any time.</span>
         </p>
     </main>
 </template>
