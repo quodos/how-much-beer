@@ -1,14 +1,58 @@
-
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: url("../img/beer.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+a {
+    &,
+    &:link,
+    &:visited {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    &:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+p {
+    line-height: 1.2;
+}
+
+.main {
+    width: 100%;
+    max-width: 32rem;
+
+    p > span {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+
+        &.number {
+            font-size: 8rem;
+        }
+    }
+
+    .info {
+        padding-top: 2rem;
+        line-height: 1.8;
+
+        span {
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+    }
 }

@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/{view?}', 'HomeController@index')->where('view', '(.*)')->name('index');

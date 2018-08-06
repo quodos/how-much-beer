@@ -1,0 +1,159 @@
+{
+    "countries": [
+        {
+            "code": "CZ",
+            "name": "Czech Republic",
+            "number": 143
+        },
+        {
+            "code": "DE",
+            "name": "Germany",
+            "number": 104
+        },
+        {
+            "code": "AT",
+            "name": "Austria",
+            "number": 103
+        },
+        {
+            "code": "PL",
+            "name": "Poland",
+            "number": 98
+        },
+        {
+            "code": "LT",
+            "name": "Lithuania",
+            "number": 88
+        },
+        {
+            "code": "IE",
+            "name": "Ireland",
+            "number": 81
+        },
+        {
+            "code": "EE",
+            "name": "Ireland",
+            "number": 80
+        },
+        {
+            "code": "RO",
+            "name": "Romania",
+            "number": 80
+        },
+        {
+            "code": "SI",
+            "name": "Slovenia",
+            "number": 79
+        },
+        {
+            "code": "LV",
+            "name": "Latvia",
+            "number": 78
+        },
+        {
+            "code": "FI",
+            "name": "Finland",
+            "number": 77
+        },
+        {
+            "code": "BG",
+            "name": "Bulgaria",
+            "number": 76
+        },
+        {
+            "code": "HR",
+            "name": "Croatia",
+            "number": 75
+        },
+        {
+            "code": "LU",
+            "name": "Luxembourg",
+            "number": 74
+        },
+        {
+            "code": "SK",
+            "name": "Slovakia",
+            "number": 73
+        },
+        {
+            "code": "NL",
+            "name": "Netherlands",
+            "number": 69
+        },
+        {
+            "code": "BE",
+            "name": "Belgium",
+            "number": 68
+        },
+        {
+            "code": "UK",
+            "name": "United Kingdom",
+            "number": 67
+        },
+        {
+            "code": "DK",
+            "name": "Denmark",
+            "number": 62
+        },
+        {
+            "code": "HU",
+            "name": "Hungary",
+            "number": 62
+        },
+        {
+            "code": "CY",
+            "name": "Cyprus",
+            "number": 55
+        },
+        {
+            "code": "CH",
+            "name": "Switzerland",
+            "number": 55
+        },
+        {
+            "code": "MT",
+            "name": "Malta",
+            "number": 53
+        },
+        {
+            "code": "NO",
+            "name": "Norway",
+            "number": 51
+        },
+        {
+            "code": "SE",
+            "name": "Sweden",
+            "number": 48
+        },
+        {
+            "code": "PT",
+            "name": "Portugal",
+            "number": 47
+        },
+        {
+            "code": "ES",
+            "name": "Spain",
+            "number": 46
+        },
+        {
+            "code": "GR",
+            "name": "Greece",
+            "number": 36
+        },
+        {
+            "code": "FR",
+            "name": "France",
+            "number": 33
+        },
+        {
+            "code": "IT",
+            "name": "Italiy",
+            "number": 31
+        },
+        {
+            "code": "TR",
+            "name": "Turkey",
+            "number": 12
+        }
+    ]
+}
