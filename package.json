@@ -20,10 +20,12 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "country-data": "^0.0.31",
         "moment": "^2.22.2",
         "odometer": "^0.4.8",
         "rainyday.js": "^0.1.7",
         "vue-browser-geolocation": "^1.5.0",
-        "vue-odometer": "^1.0.1"
+        "vue-odometer": "^1.0.1",
+        "vue2-filters": "^0.3.0"
     }
 }

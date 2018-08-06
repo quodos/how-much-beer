@@ -6,6 +6,9 @@ import App from './components/App.vue';
 import VueGeolocation from 'vue-browser-geolocation';
 Vue.use(VueGeolocation);
 
+import Vue2Filters from 'vue2-filters';
+Vue.use(Vue2Filters);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -16,8 +19,8 @@ const app = new Vue({
     el: '#root',
 
     /**
-     * The component's data.
-     * @returns {Object} The component's data.
+     * The component's statisticalData.
+     * @returns {Object} The component's statisticalData.
      */
     data() {
         return {};

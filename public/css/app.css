@@ -10482,10 +10482,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2rem;
   background: url(/images/beer.jpg?ee9394b864800e63f254739415d91b90) no-repeat center center;
   background-size: cover;
   color: #ffffff;
-  padding: 2rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 a,
@@ -10522,10 +10523,22 @@ p {
 .main .info {
   padding-top: 2rem;
   line-height: 1.8;
+  opacity: 0.8;
 }
 
 .main .info span {
   font-size: 0.8rem;
   font-weight: 400;
+}
+
+sup {
+  font-weight: 400;
+}
+
+select {
+  height: 2.2rem;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 
