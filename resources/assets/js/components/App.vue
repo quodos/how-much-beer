@@ -69,5 +69,9 @@
                 <span>Loading&hellip;</span>
             </p>
         </div>
+
+        <p class="info">
+            <span>Privacy: We use <a href="http://ip-api.com/" target="_blank" rel="nofollow external">ip-api.com</a> to detect your current country. We do not safe any information at any time.</span>
+        </p>
     </main>
 </template>

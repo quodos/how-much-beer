@@ -10482,7 +10482,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/images/beer.jpg?ee9394b864800e63f254739415d91b90) no-repeat;
+  background: url(/images/beer.jpg?ee9394b864800e63f254739415d91b90) no-repeat center center;
   background-size: cover;
   color: #ffffff;
   padding: 2rem;
